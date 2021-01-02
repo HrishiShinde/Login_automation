@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-PATH = "C:\Program Files (x86)\chromedriver.exe"
+PATH = "C:\Program Files (x86)\chromedriver.exe"  #Enter path of chromedriver here
 
 def login(site, uname_name, uname, pwrd, text):
     driver = webdriver.Chrome(PATH)
@@ -39,16 +39,16 @@ while True:
 
     if text == 'g':
         site = "https://github.com/login"
-        name = "login"
-        email = "your_email"
-        pwd = "your_password"
+        name = "login"    
+        email = "your_email"  #enter your email id of this site here
+        pwd = "your_password"  #enter your password of this site here
         login(site, name, email, pwd, text)
 
     if text == 'i':
         site = "https://www.instagram.com/accounts/login/"
         name = "username"
-        email = "your_email"
-        pwd = "your_password"
+        email = "your_email"  #enter your email id of this site here
+        pwd = "your_password" #enter your password of this site here
         login(site, name, email, pwd, text)
 
     if text == 'q':

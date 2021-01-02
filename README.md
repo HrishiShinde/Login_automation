@@ -1,1 +1,1 @@
-# Make sure to enter your email id and pass if you're refering or cloning it.
+# Make sure to make changes if you're refering or cloning it.
